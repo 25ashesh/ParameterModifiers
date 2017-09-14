@@ -1,5 +1,4 @@
-
-class RefModifier
+    class RefModifier
     {
         public static void Swapper(ref string fname, ref string lname)
         {
@@ -18,3 +17,4 @@ class RefModifier
             Console.WriteLine("After swapping: {0} {1}", str1, str2);
 
         }
+    }
